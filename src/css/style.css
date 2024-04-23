@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 9000px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #61869E;
+}
+
+.landing {
+  width: calc(100vw - 17px);
+  overflow: hidden;
+}
+.landing__parallax {
+  width: 2000px;
+  height: 9000px;
+  position: relative;
+}
+@media screen and (min-width: 2000px) {
+  .landing__parallax {
+    width: calc(100vw - 17px);
+  }
+}
+.landing__parallax__item {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

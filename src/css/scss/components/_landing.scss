@@ -1,0 +1,21 @@
+.landing{
+    // border: solid 5px red;
+    width: calc(100vw - 17px);
+    overflow: hidden;
+
+    &__parallax{
+        // border: 2px solid blue;
+        width: 2000px;
+        height: 9000px;
+        position: relative; 
+        @media screen and (min-width:2000px) {
+            width: calc(100vw - 17px);
+        }
+
+        &__item{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
+    }
+}
