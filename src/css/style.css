@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 body {
   margin: 0;
   height: 9000px;
@@ -6,9 +7,34 @@ body {
   background-color: #61869E;
 }
 
+h1 {
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-size: 1.5rem;
+}
+
 .landing {
   width: calc(100vw - 17px);
   overflow: hidden;
+  position: relative;
+}
+.landing__title {
+  position: absolute;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #391415;
 }
 .landing__parallax {
   width: 2000px;
