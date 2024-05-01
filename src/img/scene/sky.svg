@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2611 1080">
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2611 1257">
   <defs>
     <style>
       .cls-1 {
-        fill: url(#Dégradé_sans_nom_81);
+        fill: url(#Dégradé_sans_nom_7);
       }
 
       .cls-1, .cls-2, .cls-3 {
@@ -18,14 +18,12 @@
         fill: #fbe173;
       }
     </style>
-    <linearGradient id="Dégradé_sans_nom_81" data-name="Dégradé sans nom 81" x1="1305.5" y1="1080" x2="1305.5" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Dégradé_sans_nom_7" data-name="Dégradé sans nom 7" x1="1305.5" y1="1257" x2="1305.5" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#c45d07"/>
       <stop offset=".5" stop-color="#ffb61f"/>
-      <stop offset=".74" stop-color="#e7cf9c"/>
-      <stop offset=".88" stop-color="#b3b5b6"/>
-      <stop offset="1" stop-color="#61869e"/>
+      <stop offset="1" stop-color="#e7cf9c"/>
     </linearGradient>
-    <radialGradient id="Dégradé_sans_nom_110" data-name="Dégradé sans nom 110" cx="1305.5" cy="480" fx="1305.5" fy="480" r="434.83" gradientTransform="translate(-2603.51) scale(2.99 1)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="Dégradé_sans_nom_110" data-name="Dégradé sans nom 110" cx="1305.5" cy="657" fx="1305.5" fy="657" r="434.83" gradientTransform="translate(-2603.51) scale(2.99 1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fbe173"/>
       <stop offset=".01" stop-color="rgba(251, 225, 115, .97)" stop-opacity=".97"/>
       <stop offset=".09" stop-color="rgba(251, 225, 115, .77)" stop-opacity=".77"/>
@@ -40,8 +38,8 @@
     </radialGradient>
   </defs>
   <g id="Sky">
-    <rect class="cls-1" x="2" width="2607" height="1080"/>
-    <ellipse class="cls-2" cx="1305.5" cy="480" rx="1305.5" ry="436"/>
-    <circle class="cls-3" cx="1305.5" cy="480" r="125"/>
+    <rect class="cls-1" x="2" width="2607" height="1257"/>
+    <ellipse class="cls-2" cx="1305.5" cy="657" rx="1305.5" ry="436"/>
+    <circle class="cls-3" cx="1305.5" cy="657" r="125"/>
   </g>
 </svg>

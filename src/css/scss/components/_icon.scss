@@ -1,0 +1,16 @@
+.icon {
+  height: 24px;
+  width: 24px;
+
+  &--light {
+    &--arrow-up {
+      background: url(/public/ui/arrow-up-light.svg);
+    }
+  }
+
+  &--dark {
+    &--arrow-up {
+      background: url(/public/ui/arrow-up-dark.svg);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.ending{
+    // background-color: red;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__main-title{
+        font-size: 4rem;
+        color: $white;
+    }
+
+    &__sub-title{
+        font-size: 2.5rem;
+        color: white;
+        font-family: $jersey-10;
+        font-weight: 400;
+        margin: 20px;
+    }
+
+    &__para{
+        color: $white;
+        margin: 0;
+        max-width: 800px;text-align: center;
+    }
+}

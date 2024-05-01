@@ -1,20 +1,48 @@
-body{
-    margin: 0;
-    height: 9000px;
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: #61869E;
+html{
+    font-size: 24px;
+    // scroll-behavior: smooth;
+
 }
 
+body{
+    margin: 0;
+    height: 101076px;
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    background-color: #61869E;
+    background: linear-gradient(0deg, rgba(231,207,156,1) 8%, rgba(179,181,182,1) 13%, rgba(97,134,158,1) 19%, rgba(52,101,136,1) 26%, rgba(35,86,124,1) 33%, rgba(13,51,80,1) 47%, rgba(9,34,54,1) 80%, rgba(2,6,12,1) 100%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}    
+    
 h1{
     margin: 0;
-    font-family: $title-font;
-    font-size: 5rem;
+    font-family: $jersey-25;
+    font-size: 6.5rem;
     text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2{
+    margin: 0;
+    font-family: $jersey-20;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: 600;
 }
 
 h3{
     margin: 0;
-    font-family: $title-font;
-    font-size: 1.5rem;
+    font-family: $jersey-10;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: $main-light;
+    font-weight: 400;
+}
+
+p{
+    font-family: $jersey-10;
+    font-weight: 400;
+    font-size: 1rem;
 }

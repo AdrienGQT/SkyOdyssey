@@ -1,0 +1,19 @@
+.altimeter{
+    position:fixed;
+    bottom:12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 500;
+    filter: drop-shadow(0 0 4px rgba(black,0.11));
+    font-family: $jersey-15;
+    color: $main-dark;
+    transition: 0.75s;
+
+    &--active{
+        opacity: 1;
+    }
+
+    &--inactive{
+        opacity: 0;
+    }
+}
